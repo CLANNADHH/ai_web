@@ -1,0 +1,2 @@
+[mysql]
+DEBUG = True
