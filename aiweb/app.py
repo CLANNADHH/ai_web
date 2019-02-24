@@ -89,11 +89,12 @@ class Aiapi(object):
             except Exception as error:
                 return ai_json_dumps({"error": str(error)})
         try:
-            result = self.predict_func(**(self.predict_func_kwargs))
-            
+            if self.predict_class:
+                result = self.predict_func(self.predict_class, **(self.predict_func_kwargs))
+            else:
+                result = self.predict_func(**(self.predict_func_kwargs))
             if isinstance(result,np.ndarray):
                 result = result.tolist()
-                print(type(result))
         except Exception as error:
             result = str(error)
         return ai_json_dumps(result)

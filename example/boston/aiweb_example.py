@@ -52,6 +52,6 @@ boston.train()
 
 ai = Aiapi('config.ini')
 ai.predict_class = boston
-ai.predict_func = boston.predict
+ai.predict_func = BostonPredict.predict
 ai.predict_func_args = ['test_data']
 ai.run()
