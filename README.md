@@ -9,7 +9,7 @@
 - 3.1通过pip安装或者通过下载本源码安装。
 
 - 3.2开始使用aiweb
-	[代码传送门](https://github.com/CLANNADHH/ai_web/tree/master/example/simple"点击查看")
+	[代码传送门](https://github.com/CLANNADHH/ai_web/tree/master/example/simple)
 
  -  下面是一个简单的例子
    - 3.2.1 主程序部分  
@@ -71,7 +71,7 @@
 
   - 另一个例子： 
   	代码为使用 **sklearn** 预测波士顿房价并使用 **aiweb** 自动生成预测接口
-	- [代码传送门](https://github.com/CLANNADHH/ai_web/tree/master/example/boston"点击查看")
+	- [代码传送门](https://github.com/CLANNADHH/ai_web/tree/master/example/boston)
     
 	 ![返回信息](/image/boston.png)
 
