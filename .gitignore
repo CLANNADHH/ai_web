@@ -23,7 +23,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.idea/
 MANIFEST
 
 # PyInstaller
@@ -103,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.mvn
+mvnw*
