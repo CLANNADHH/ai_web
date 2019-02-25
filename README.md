@@ -13,7 +13,8 @@
 
  -  下面是一个简单的例子
    - 3.2.1 主程序部分  
- -  ``` python
+   
+    -  ``` python
 	# 导入aiweb
 	from aiweb import Aiapi
 	# 算法部分
@@ -36,9 +37,10 @@
 	
 	# 启动http服务
 	ai.run()
-```
-    - 3.2.2 编写配置文件
- -  ``` python
+    ```
+   - 3.2.2 编写配置文件
+   
+   -  ``` python
 	[aiweb]
 	# server ip addr
 	HOST = 127.0.0.1
@@ -51,7 +53,7 @@
 	
 	# log file name
 	LOG_FILE = aiweb.log
-```
+    ```
    - 3.2.3 运行你的代码
     
 		> 命令行输入  `python simple_example.py` 
