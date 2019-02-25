@@ -12,9 +12,8 @@
 	[代码传送门](https://github.com/CLANNADHH/ai_web/tree/master/example/simple)
 
  -  下面是一个简单的例子
-   - 3.2.1 主程序部分  
-   
-    -  ``` python
+    - 3.2.1 主程序部分
+  - ```  python
 	# 导入aiweb
 	from aiweb import Aiapi
 	# 算法部分
@@ -39,8 +38,7 @@
 	ai.run()
     ```
    - 3.2.2 编写配置文件
-   
-   -  ``` python
+ -  ``` python
 	[aiweb]
 	# server ip addr
 	HOST = 127.0.0.1
