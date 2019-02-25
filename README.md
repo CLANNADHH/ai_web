@@ -16,15 +16,12 @@
  -  ``` python
 	# 导入aiweb
 	from aiweb import Aiapi
-# ----------------------------------------
 	# 算法部分
 	class AiTest(object):
 	
 		# 预测函数
 		def parse(self,aaa,bbb=None):
 	    	return aaa
-# ----------------------------------------
-
 	# 实例化aiweb
 	ai = Aiapi("config.ini")
 	
@@ -55,8 +52,6 @@
 	# log file name
 	LOG_FILE = aiweb.log
 ```
-    如果想外网访问，HOST要写成  ` 0.0.0.0 ` 
-
    - 3.2.3 运行你的代码
     
 		> 命令行输入  `python simple_example.py` 
