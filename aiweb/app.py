@@ -78,11 +78,13 @@ class Aiapi(object):
         else:
             try:
                 request_params = request.content.read().decode('utf-8', 'strict')
+                
                 if request_params:
                     request_params = ai_json_loads(request_params)
                     for key in self.predict_func_args:
                         temp = request_params.get(key)
-                        if temp:
+                        print(temp)
+                        if temp  != None:
                             self.predict_func_kwargs[key] = temp
                         else:
                             raise Exception("[Error] I can't find argument -> {}".format(key))
